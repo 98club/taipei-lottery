@@ -23,10 +23,9 @@ button{background:#08755d;color:white;border:0;border-radius:9px;padding:17px;wi
 </head>
 <body>
 <main class="ticket">
-<div class="sub">TAIPEI ⇄ TOKYO</div>
 <h1>台北六本木</h1>
 <div class="sub">統一發票 特別開獎所</div>
-<div class="number">NK-20240301</div>
+<div class="number">TW-97989900</div>
 <section id="start">
 <p class="message">感謝在台灣相遇的每一天。<br>準備好確認你的幸運了嗎？</p>
 <button onclick="reveal()">立即開獎 🎁</button>
@@ -45,8 +44,8 @@ document.getElementById('start').classList.add('hidden');
 document.getElementById('result').classList.remove('hidden');
 document.getElementById('status').textContent=win?'中獎':'未中獎';
 document.getElementById('subtitle').textContent=win?'恭喜恭喜':'銘謝惠顧';
-document.getElementById('prize').textContent=win?'🍻 日本再會乾杯券':'友情無價 ❤️';
-document.getElementById('message').innerHTML=win?'恭喜你獲得一杯免費飲料！<br>下次在日本見面時兌換。':'這次沒有中獎，但在台灣認識你們，就是最大的獎！<br>下次在日本一起乾杯吧！';
+document.getElementById('prize').textContent=win?'🎁 恭喜你中獎啦！':'友情無價 ❤️';
+document.getElementById('message').innerHTML=win?'我們準備了一份精美禮物要送給你！':'這次沒有中獎，但在台灣認識你們，就是最大的獎！<br>下次在日本一起乾杯吧！';
 }
 </script>
 </body>
